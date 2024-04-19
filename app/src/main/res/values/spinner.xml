@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String to store all the topics that are available for software project management -->
+    <string-array name="Unit1topics">
+        <item>Measurement, Estimation and Data Analysis</item>
+        <item>Software Project Planning</item>
+        <item>Software Project Risk Management</item>
+        <item>Project Management and Control</item>
+        <item>Quality Management</item>
+        <item>Agile Methodologies</item>
+    </string-array>
+
+    <!-- String to store all the topics that are available for human computer interaction -->
+    <string-array name="Unit2topics">
+        <item>Understanding the User</item>
+        <item>User-Centred Design(UCD)</item>
+        <item>Knowledge Elicitation</item>
+        <item>Prototyping</item>
+        <item>Evaluation</item>
+    </string-array>
+
+    <!-- String to store all the topics that are available for information security -->
+    <string-array name="Unit3topics">
+        <item>Cryptography</item>
+        <item>Authentication</item>
+        <item>Programming and Operating System Security</item>
+        <item>Network Security</item>
+        <item>Non-Technical Aspects of Security</item>
+    </string-array>
+
+    <!-- String to store all the topics that are available for mobile design and development -->
+    <string-array name="Unit4topics">
+        <item>Mobile Interaction Design Introduction</item>
+        <item>Mobiles for People</item>
+        <item>Innovating and Interaction Design</item>
+        <item>Design Directions</item>
+        <item>Mobile Evaluation</item>
+    </string-array>
+
+    <!-- String to store all the topics that are available for introduction to artificial intelligence -->
+    <string-array name="Unit5topics">
+        <item>Introduction to AI</item>
+        <item>Introduction to Intelligence Agents</item>
+        <item>Solving Problems by Searching</item>
+        <item>Python Programming for AI</item>
+        <item>Machine Learning</item>
+        <item>Knowledge Representation</item>
+    </string-array>
+
+</resources>

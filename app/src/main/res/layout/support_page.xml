@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupportPage">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/SupportPageTabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/white"
+        app:tabIndicatorColor="@color/black"
+        android:background="#339FFA">
+
+
+        <!-- The learn tab which the user can select -->
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn"/>
+
+
+        <!-- The quiz tab which the user can select -->
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz"/>
+
+
+        <!-- The profile tab which the user can select -->
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"/>
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <!-- User can swipe across tabs to the tab they want support information for -->
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/SupportPageViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/SupportPageTabs"/>
+
+</RelativeLayout>

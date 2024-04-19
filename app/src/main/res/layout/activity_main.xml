@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+
+    <!-- Logo for application on home screen -->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:cropToPadding="false"
+        android:src="@drawable/logo" />
+
+
+    <!-- Buttons that the user can click from the home page to get to four sections of application -->
+
+    <Button
+        android:id="@+id/learnButton"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/round_rectangle_1"
+        android:text="Learn"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:drawableTop="@drawable/learn"
+        android:padding="42dp"/>
+
+    <Button
+        android:id="@+id/quizButton"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="205dp"
+        android:background="@drawable/round_rectangle_1"
+        android:text="Quiz"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:drawableTop="@drawable/quiz"
+        android:padding="42dp"/>
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/quizButton"
+        android:text="Profile"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_rectangle_1"
+        android:drawableTop="@drawable/profile"
+        android:padding="42dp"/>
+
+    <Button
+        android:id="@+id/supportButton"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/learnButton"
+        android:text="Support"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_rectangle_1"
+        android:drawableTop="@drawable/support"
+        android:padding="42dp"/>
+
+</RelativeLayout>

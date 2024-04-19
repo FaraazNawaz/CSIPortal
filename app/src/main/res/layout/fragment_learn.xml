@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".support.LearnFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#0978D5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/LearnSupportTV1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to navigate on the learn page:"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/LearnSupportTV2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When you first enter the learn page, you will see a a title and five buttons for the different modules you can learn from."
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/LearnSupportTV1"
+                android:layout_marginTop="25dp"/>
+
+
+            <TextView
+                android:id="@+id/LearnSupportTV3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click on the module that you want to learn from and you will be taken to that specific module page."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/LearnSupportTV2"
+                android:layout_marginTop="25dp"/>
+
+
+            <TextView
+                android:id="@+id/LearnSupportTV4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once you are on the page, you will see a box at the top of the page which shows the current topic information being displayed below."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/LearnSupportTV3"
+                android:layout_marginTop="25dp"/>
+
+
+            <TextView
+                android:id="@+id/LearnSupportTV5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can click on the topic box and this will open a dropdown menu. This dropdown menu will allow you choose from different topics."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/LearnSupportTV4"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/LearnSupportTV6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The topics in the dropdown menu are all the different topics available for the module selected."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/LearnSupportTV5"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/LearnSupportTV7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When you choose another topic from the list, the topic title will change and the information for that topic will appear below replacing the old information."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/LearnSupportTV6"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/LearnSupportTV8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can scroll up and down on the page to see and read all the information available for the topic."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/LearnSupportTV7"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/LearnSupportTV9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can click and swap the topics you want to learn from and once you are done, you can go back to the learn page and choose another module or go back to the home page"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/LearnSupportTV8"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

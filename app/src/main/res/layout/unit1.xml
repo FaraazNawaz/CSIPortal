@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0978D5"
+    tools:context=".learn.Unit1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <!--Spinner for the dropdown menu of topics for software project management  -->
+
+            <Spinner
+                android:id="@+id/Unit1topics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/round_rectangle_1"
+                android:entries="@array/Unit1topics"
+                android:padding="13dp"
+                android:popupBackground="@drawable/round_rectangle"
+                android:spinnerMode="dropdown" />
+
+            <!--Arrow to show users can click on spinner  -->
+
+            <ImageView
+                android:id="@+id/dropdown"
+                android:layout_width="57dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="330dp"
+                android:src="@drawable/dropdown" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp"
+                android:layout_below="@id/Unit1topics">
+
+            <!--Text view where the information will be displayed  -->
+
+            <TextView
+        android:id="@+id/Unit1TopicInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text=""
+        android:textSize="16sp" />
+
+    <!-- Fragment container where fragments will be displayed -->
+    <FrameLayout
+        android:id="@+id/Unit1fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>

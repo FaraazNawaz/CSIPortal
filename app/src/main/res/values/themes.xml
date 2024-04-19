@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CSIPortal" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#339FFA</item>
+    </style>
+
+    <style name="Theme.CSIPortal" parent="Base.Theme.CSIPortal" />
+</resources>

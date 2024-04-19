@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".support.QuizFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#0978D5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/QuizSupportTV1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to navigate on the quiz page:"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/QuizSupportTV2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When you first enter the quiz page, you will see a title asking you to test your knowledge and many other options you can choose from before starting a quiz"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV1"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You will also see your best quiz score which will be set to 0 at the beginning and will change everytime you complete a quiz as long as the score achieved in the quiz is higher than the current best quiz score."
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV2"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You will have an option box asking you to choose a module, you can then choose the module you want the get quizzed on."
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV3"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You will also have an option box asking you to choose the mode you want the quiz to be which will range from easy to hard. This will allow you to determine whether you want easy, medium or hard questions for the module you have chosen."
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV4"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can then click the begin quiz button at the bottom of the page which will open the quiz you will be taking."
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV5"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once the quiz begins you will see the questions counter at the top left showing you what number question you are on and how many questions there are. "
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV6"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" You will also see the module and mode the questions you are seeing are for above the counter. "
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV7"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You will also see the points you have recieved for the quiz at the top middle part of the screen which will increase by 1 for each correct answer. "
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV8"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There will also be a timer at the top right indicating how long you have left to answer the question. The timer will turn red once the time goes below 10 seconds. Once the timer finishes, the selected answer will be submitted or if no answer is picked, no points will be given and the correct answer will be shown."
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV9"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The questions that need to be answered will be shown below the points text and below the questions will be four buttons with four different answers next to them allowing you to click and choose the answer you think is correct."
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV10"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once an answer has been selected, you can click on the confirm button which will submit your answer and show you the correct answer where the question was and will highlight the correct answer with green and wrong answers red. "
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV11"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once all the questions have been answered, the button will change to finish quiz allowing you to click and go back to the quiz main menu where your score will be updated if higher than the current score."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV12"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/QuizSupportTV14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Before clicking finish quiz, you can check your score for the quiz so you can see how well you have done and if you need to improve."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/QuizSupportTV13"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

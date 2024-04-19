@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".support.ProfileFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#0978D5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/ProfileSupportTV1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to use the profile page:"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/ProfileSupportTV2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The profile page will allow you add and edit information about you and your university."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@id/ProfileSupportTV1"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/ProfileSupportTV3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When you first enter the page you can tap the text fields and enter information in each of the fields provided."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@id/ProfileSupportTV2"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/ProfileSupportTV4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once you have entered your information, you can click on save to store your information in the profile page."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@id/ProfileSupportTV3"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/ProfileSupportTV5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you want to edit the information on the profile page, click on the add button and this will allow you to use the text fields again. You can then click the save button and this will add your changes to the profile."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@id/ProfileSupportTV4"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/ProfileSupportTV6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The text fields will be restricted after the first save has been made and the add button will replace the save button to allow you to go back and edit."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@id/ProfileSupportTV5"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/ProfileSupportTV7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you click on save without inputting any information, there will be a pop up telling you to input information before you can save any information to the profile page."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@id/ProfileSupportTV6"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/ProfileSupportTV8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once the save button has been clicked and there is information in the text fields, a message will appear alerting you that your newly added information has been saved to the profile page."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@id/ProfileSupportTV7"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/ProfileSupportTV9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The age text field will restrict you to only using numbers to make sure the correct information is placed inside."
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_below="@id/ProfileSupportTV8"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="15dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

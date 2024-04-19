@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilePage">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#0978D5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp" />
+
+
+        <!-- Field to enter name -->
+
+        <EditText
+            android:id="@+id/EnterNameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textSize="21sp"
+            android:textColor="@color/black"
+            android:background="@drawable/round_rectangle"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_below="@+id/Name"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@+id/EnterNameField"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <!-- Field to enter age -->
+
+        <EditText
+            android:id="@+id/EnterAgeField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your age"
+            android:textSize="21sp"
+            android:textColor="@color/black"
+            android:background="@drawable/round_rectangle"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:inputType="number"
+            android:layout_below="@+id/Age"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/University"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University:"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@+id/EnterAgeField"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <!-- Field to enter university -->
+
+        <EditText
+            android:id="@+id/EnterUniversityField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your university name"
+            android:textSize="21sp"
+            android:textColor="@color/black"
+            android:background="@drawable/round_rectangle"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_below="@+id/University"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/UniversityCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="University Course:"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@+id/EnterUniversityField"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <!-- Field to enter university course being studied -->
+
+        <EditText
+            android:id="@+id/EnterUniversityCourseField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter the course you are studying"
+            android:textSize="21sp"
+            android:textColor="@color/black"
+            android:background="@drawable/round_rectangle"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_below="@+id/UniversityCourse"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/CurrentModules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Modules:"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@+id/EnterUniversityCourseField"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <!-- Field to enter current modules being studied -->
+
+        <EditText
+            android:id="@+id/EnterCurrentModulesField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter modules you are taking"
+            android:textSize="21sp"
+            android:textColor="@color/black"
+            android:background="@drawable/round_rectangle"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_below="@+id/CurrentModules"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/CompletedModules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completed Modules:"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@+id/EnterCurrentModulesField"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <!-- Field to enter completed university modules -->
+
+        <EditText
+            android:id="@+id/EnterCompletedModulesField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your completed modules"
+            android:textSize="21sp"
+            android:textColor="@color/black"
+            android:background="@drawable/round_rectangle"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_below="@+id/CompletedModules"
+            android:layout_marginTop="15dp"/>
+
+
+        <!-- Button to add information to profile -->
+
+        <Button
+            android:id="@+id/AddButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textStyle="bold"
+            android:background="@drawable/button"
+            android:layout_below="@+id/EnterCompletedModulesField"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_centerHorizontal="true"/>
+
+       </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
